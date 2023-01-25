@@ -1,0 +1,241 @@
+@media screen and (max-width: 1120.98px) {
+
+	.card {
+			width: 25rem;
+			height: 30rem;
+		}
+	
+		.flip-card {
+			width: 25rem;
+			height: 30rem;
+		}
+	
+		.card-front {
+			width: 25rem;
+			height: 30rem;
+		}
+	
+		.card-front__top {
+			height: 27rem;
+		}
+	
+		.card-front__icon {
+			width: 20%;
+		}
+	
+		.inside-page {
+			width: 25rem;
+		}
+	
+		.card-back__container {
+			padding-top: 70px;
+		}
+	
+		.inside-page__container {
+			padding-top: 55px;
+		}
+	
+		.card:hover {
+			width: 50rem;
+		}
+
+}
+
+@media screen and (max-width: 990.98px) {
+
+	.slider__slide {
+		flex-direction: column;
+		max-width: 80%;
+	}
+
+	.slider__logo {
+		margin-right: 0;
+		border-right: 0;
+		border-bottom: 1px solid #000;
+	}
+
+	.experience__info {
+		padding: 60px 15px;
+	}
+
+	.experience__arrow-prev {
+		left: 0;
+	}
+
+	.experience__arrow-next {
+		right: 0;
+	}
+
+}
+
+@media screen and (max-width: 910.98px) {
+
+	.card {
+			width: 20rem;
+			height: 25rem;
+		}
+	
+		.flip-card {
+			width: 20rem;
+			height: 25rem;
+		}
+	
+		.card-front {
+			width: 20rem;
+			height: 25rem;
+		}
+	
+		.card-front__top {
+			height: 22rem;
+		}
+	
+		.card-front__icon {
+			width: 20%;
+		}
+	
+		.inside-page {
+			width: 20rem;
+		}
+	
+		.card-back__container {
+			padding-top: 70px;
+		}
+	
+		.inside-page__container {
+			padding-top: 55px;
+		}
+	
+		.card:hover {
+			width: 40rem;
+		}
+
+}
+
+@media screen and (max-width: 767.98px){
+
+	.preview__top {
+		flex-direction: column;
+	}
+	
+	.preview__photo {
+		display: flex;
+		margin-right: 0;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+
+	.preview__photo img {
+		margin: 0 auto;
+	}
+
+	.card {
+		width: 15rem;
+		height: 20rem;
+	}
+
+	.flip-card {
+		width: 15rem;
+		height: 20rem;
+	}
+
+	.card-front {
+		width: 15rem;
+		height: 20rem;
+	}
+
+	.card-front__top {
+		height: 17rem;
+	}
+
+	.card-front__icon {
+		width: 20%;
+	}
+
+	.inside-page {
+		width: 15rem;
+	}
+
+	.card-back__container {
+		padding-top: 50px;
+	}
+
+	.inside-page__container {
+		padding-top: 35px;
+	}
+
+	.card:hover {
+		width: 30rem;
+	}
+
+}
+
+@media screen and (max-width: 540.98px) {
+
+	.card {
+			width: 9rem;
+			height: 14rem;
+		}
+	
+		.flip-card {
+			width: 9rem;
+			height: 14rem;
+		}
+	
+		.card-front {
+			width: 9rem;
+			height: 14rem;
+		}
+
+		.card-front__top {
+			height: 11rem;
+		}
+
+		.card-front__icon {
+			width: 30%;
+		}
+	
+		.inside-page {
+			width: 9rem;
+		}
+	
+		.card:hover {
+			width: 18rem;
+		}
+
+		.card-back__container {
+			padding-top: 30px;
+			font-size: 12px;
+		}
+
+		.inside-page__container {
+			padding-top: 10px;
+			font-size: 13px;
+		}
+
+		.inside-page__container li:not(:last-child) {
+			margin-bottom: 10px;
+		}
+
+		.card__item:not(:last-child) {
+			margin-bottom: 10px;
+		}
+
+		.slider__item {
+			max-width: 100%;
+		}
+
+		.experience__list {
+			font-size: 14px;
+		}
+
+		.experience__item {
+			flex-direction: column;
+			row-gap: 5px;
+		}
+
+		.experience__arrow-prev::before,
+		.experience__arrow-next::before {
+			font-size: 25px;
+		}
+
+}
